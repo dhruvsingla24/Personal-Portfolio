@@ -1,4 +1,4 @@
-/* --- CSS Variables & Theme Definitions --- */
+
 :root {
     --bg-color: #f8f9fa;
     --text-color: #2d3436;
@@ -21,7 +21,7 @@ body.dark-mode {
     --shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
-/* --- Global Reset & Base Styles --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@ body {
 .highlight { color: var(--primary); }
 .font-weight-bold { font-weight: 600; }
 
-/* --- 10. Interactive Navigation --- */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -93,7 +93,7 @@ nav .logo {
 }
 #theme-btn:hover { transform: scale(1.1); }
 
-/* --- Layout & Container --- */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -105,7 +105,7 @@ nav .logo {
 
 .section-block { scroll-margin-top: 100px; }
 
-/* --- 1. Home Section --- */
+
 .hero {
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@ nav .logo {
 .btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4); }
 .small-btn { padding: 0.5rem 1.2rem; font-size: 0.85rem; margin-top: 1.5rem; }
 
-/* --- Cards & Grids --- */
+
 .card {
     background-color: var(--card-bg);
     padding: 2.5rem;
@@ -175,14 +175,13 @@ nav .logo {
 .grid-3-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
 .full-width { width: 100%; }
 
-/* --- Sections Styling --- */
-/* Skills */
+
 .skill { margin-bottom: 1.2rem; }
 .skill span { font-weight: 600; display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem; }
 .progress-bar { background-color: var(--border-color); border-radius: 10px; height: 10px; width: 100%; overflow: hidden; }
 .progress { background: linear-gradient(90deg, var(--primary), var(--secondary)); height: 100%; border-radius: 10px; font-size: 0.7rem; color: white; text-align: right; padding-right: 8px; line-height: 10px; }
 
-/* Projects, Hobbies, Achievements */
+
 .project-box, .hobby-box, .achievement-category {
     background-color: var(--bg-color);
     padding: 1.8rem;
@@ -231,7 +230,7 @@ nav .logo {
     color: var(--primary);
 }
 
-/* --- 8. Contact Section --- */
+
 .social-links {
     display: flex;
     gap: 1.5rem;
@@ -267,7 +266,6 @@ input, textarea {
 input:focus, textarea:focus { outline: none; border-color: var(--primary); }
 #formStatus { margin-top: 1rem; font-weight: 600; padding: 1rem; border-radius: 8px; display: none; }
 
-/* --- 11. Responsive Design --- */
 @media (max-width: 992px) {
     .hero { flex-direction: column; text-align: center; gap: 2rem; padding-top: 6rem; }
     .hero-buttons { justify-content: center; }
