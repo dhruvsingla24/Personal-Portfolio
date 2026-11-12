@@ -1,9 +1,9 @@
-// --- 9. Dark Mode and Light Mode Handling ---
+
 const themeBtn = document.getElementById('theme-btn');
 const body = document.body;
 const themeIcon = themeBtn.querySelector('i');
 
-// Check saved theme preference
+
 const savedTheme = localStorage.getItem('portfolio-theme');
 if (savedTheme === 'dark') {
     body.classList.add('dark-mode');
@@ -24,7 +24,7 @@ themeBtn.addEventListener('click', () => {
     }
 });
 
-// --- 8. Contact Form Validation ---
+
 const contactForm = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');
 
@@ -61,7 +61,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 });
 
-// --- 10. Interactive Navigation (Active Link Highlighting) ---
+
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-item');
 
