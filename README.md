@@ -1,30 +1,30 @@
-# Personal Portfolio Website — Dhruv Singla
+# Dhruv Singla — Personal Portfolio
+A personal portfolio website showcasing my interests, skills, projects and journey in technology and creative design.
 
-A responsive, interactive personal portfolio website built using HTML5, CSS3. Designed to showcase my academic background at Bosscoder School of Technology, technical skills, hackathon projects, certifications, and personal interests.
+# Built With
+- HTML
+- CSS
+- Flexbox & CSS Grid
+- Responsive Design
 
-## Features Implemented
+# Features
+- About Me Section
+- Skills and Projects showcase
+- Contact section
+- Responsive layout
 
-- **Home Section:** Prominent hero banner with profile avatar, introduction, and quick-action navigation buttons.
-- **About Me:** Overview of my background as a First-Year B.Tech CSE (AI & ML) student and problem-solving approach.
-- **Education:** Academic timeline detailing my undergraduate program at Bosscoder School of Technology.
-- **Skills:** Visual proficiency indicators with progress bars for HTML/CSS, Java & Algorithms and Communication/Teamwork.
-- **Projects:** Showcase cards with descriptions, technology tags, and live deployment links for **Class-Pulse**, **NecroLog**.
-- **Hobbies & Interests:** Dedicated cards highlighting interests in Music, Video Games, and Fitness.
-- **Achievements & Certificates:** Structured breakdown of hackathon participations (Hacktoberfest Hack Day Bengaluru × Devforge, Ideathon 2026 @ BST) and earned certifications.
-- **Contact Section:** Direct links to LinkedIn and GitHub alongside an interactive contact form with client-side JavaScript validation.
-- **Interactive Navigation:** Fixed glassmorphic navigation bar with smooth scrolling and active section highlighting on scroll.
-- **Responsive Design:** Adaptive CSS Grid and Flexbox layouts optimized for desktops, tablets, and mobile devices.
+## How to View the Project
 
-## Tech Stack
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Open the practical folder you want to view.
+4. Open its 'index.html' file using Live Server.
+5. For CSS-only practicals, link the stylesheet to an HTML file to test the styles.
 
-- **Structure:** HTML5
-- **Styling:** CSS3 (Custom Variables, Flexbox, CSS Grid, Media Queries)
-- **Icons & Typography:** Font Awesome 6, Google Fonts (Poppins)
+The HTML and CSS practicals can be opened in a browser. Git command practicals contain the commands and steps to practise in a local repository.
 
-## Project Structure
+## Student Details
 
-```text
-Personal-Portfolio/
-├── index.html      # Main HTML structure and content
-├── style.css       # Styling, dark/light theme variables, and responsive rules
-└── README.md       # Project documentation
+Dhruv Singla
+
+USN: 2392608129
